@@ -1,0 +1,180 @@
+﻿/**
+* Template Name: Inter - v3.0.0
+* Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/**
+C52189 rosa
+1CA7B8 asul 
+781056 morado
+**/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    background: #F2F4F4  !important;
+
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+  }
+
+  a {
+    color: #464747; /*fdc134*/
+  }
+
+  a:hover {
+    color: #781056; /*fdd067*/
+    text-decoration: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  .contenido{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .e-oculto{
+    display: none;
+  }
+
+  .e-visible{
+    display: block;
+  }
+
+  .e-zoom:hover{
+    transition: all 1s ease;
+    transform: scale(1.1); 
+  }
+
+  .t-suspensivo{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .card-title{
+    font-weight: bold;
+  }
+
+  .cursiva{
+    font-style: oblique;
+  }
+
+  .btn-link {
+    color: #525661 !important;
+  }
+
+/*--------------------------------------------------------------
+# header / banner
+--------------------------------------------------------------*/
+  #portada{
+    background-image: url('../img/panadai_banner-01-01.png');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+      color: rgba(255,255,255,.5);
+  }
+
+
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+  .social-media{
+    font-size: 40px;
+    padding: 15px;
+    color: #8F8785;
+  }
+
+  .social-media:hover{
+    color: #a2231d;
+  }
+
+  .footer{ 
+    text-align: center; 
+    color:#8F8785;
+    padding: 15px;
+  }
+
+
+/*--------------------------------------------------------------
+# index.php
+--------------------------------------------------------------*/
+  .nombre_seccion{
+    font-size: 35px;
+    text-align: center;
+    border: 3px solid #171818;
+    text-transform: uppercase;
+  }
+
+  .seccion{
+    margin: 4%;
+  }
+
+  
+
+
+/*--------------------------------------------------------------
+# Media devices
+--------------------------------------------------------------*/
+/* Dispositivos pequeños (menores a 576px)*/
+@media (max-width: 575.98px){
+  #portada{
+    height: 220px;
+  }
+
+  .nombre_seccion {
+    font-size: 25px;
+    margin: 20px;
+  }
+
+  .seccion {
+    margin: 5%;
+  }
+
+}
+
+
+/*Dispositivos pequeños (576px hacia arriba)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #portada{
+    height: 100px;
+  } 
+
+  .nombre_seccion {
+    font-size: 25px;
+    margin: 20px;
+  }
+
+  .seccion {
+    margin: 5%;
+  }
+
+}
+
+
+
+/* Dispositivos medianos (768px hacia arriba)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Dispositivos grandes (992px hacía arriba)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+
+}
+
+/* Dispositivos grandes de 1200px hacia arriba*/
+@media (min-width: 1200px) {
+
+}
