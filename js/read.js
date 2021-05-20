@@ -95,9 +95,7 @@
     var pga = ((ga * 100)/ma).toFixed(3);
 
     prest1 = (parseFloat(pme)+parseFloat(pdeo)+parseFloat(pga));
-    prest2 = parseFloat(prest1) - parseFloat(pma);
-    console.log(prest1);
-    console.log(prest2);
+    prest2 = parseFloat(pma) -parseFloat(prest1);
     
     createChart(pma,pmm,pme,pdeo,pga,prest2);
   }
